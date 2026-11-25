@@ -16,6 +16,10 @@ LINE = (
 
 def main():
     out = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
+    # Gate (from the competition rules): 1-140 UTF-8 chars, not only
+    # whitespace. Fail loudly here rather than shipping an invalid entry.
+    if not (1 <= len(LINE) <= 140) or not LINE.strip():
+        raise SystemExit(f"entry violates the 1-140 char gate: {len(LINE)} chars")
     os.makedirs(out, exist_ok=True)
     path = os.path.join(out, "entry.txt")
     with open(path, "w", encoding="utf-8") as f:
