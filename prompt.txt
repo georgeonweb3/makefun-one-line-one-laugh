@@ -1,0 +1,19 @@
+Finish run for make.fun competition "One Line, One Laugh"
+(u-4z4ghtbwm1fn7mibrqum4bxgfghhgqzriyhd8v3-one-line-0be61e5a, $2, closes
+2026-11-26T01:45:00Z). George gave his plain-words go-ahead on 2026-11-25
+~07:03 WAT ("Yes, proceed on all seventeen") covering the flagged
+requirements-extraction step this lane was blocked on.
+
+Build: 6 one-line candidates drafted from 4 angles (absurd, dark/deadpan,
+specific/concrete, technical/insider) under the winner-first protocol v2 —
+each 122-134 chars, 2+ concrete anchors, three beats, punch last, field
+cliché "raccoon with a mortgage" / meal-prep-to-cereal-over-sink avoided.
+A fresh blind judge session ran the 15-pair round-robin against the judge
+brief (laugh first, then turn, tightness, freshness, clarity) and picked
+candidate B 5/5: "Grandad's last words were 'don't sell the boat.' We sold
+it. The buyer sank it. His ghost rows past our house every Tuesday."
+(124 chars, gate 1-140). The builder did not pick. main.py writes that
+line to /output/entry.txt. Extra-mile pass: stress-tested against the
+spec (one line, 124 chars, UTF-8, cold-read funny) and against the house
+baseline; the ghost-rowing payoff carries the weakest dimension (the
+setup is a familiar last-words frame) and the line ships as judged.
